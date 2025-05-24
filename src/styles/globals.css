@@ -1,0 +1,57 @@
+/* Custom global styles */
+
+html, body {
+  height: 100%;
+}
+
+/* Make sure images display properly */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Custom class for canvas container */
+.canvas-container {
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Add some spacing in forms */
+.form-label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+/* Custom styles for color picker dropdown */
+.color-picker-dropdown {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+}
+
+/* Add a subtle hover effect to cards */
+.card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Make buttons a bit more rounded */
+.btn {
+  border-radius: 0.375rem;
+}
+
+/* Improve form control appearance */
+.form-control, .form-select {
+  border-radius: 0.375rem;
+  padding: 0.5rem 0.75rem;
+}
+
+/* Custom scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
